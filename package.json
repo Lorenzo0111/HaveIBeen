@@ -1,25 +1,44 @@
 {
-  "name": "haveibeen",
-  "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "name": "have-i-been",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
   "scripts": {
-    "start": "expo start",
-    "dev": "expo start"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint"
   },
   "dependencies": {
-    "expo": "~51.0.26",
-    "expo-status-bar": "~1.12.1",
-    "nativewind": "^4.0.1",
-    "react": "18.2.0",
-    "react-native": "0.74.5",
-    "react-native-reanimated": "~3.10.1",
-    "tailwindcss": "^3.4.9"
+    "@capacitor/app": "6.0.1",
+    "@capacitor/core": "6.1.2",
+    "@capacitor/haptics": "6.0.1",
+    "@capacitor/keyboard": "6.0.2",
+    "@capacitor/status-bar": "6.0.1",
+    "@ionic/react": "^8.0.0",
+    "@ionic/react-router": "^8.0.0",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
+    "ionicons": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "react-simple-maps": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "@types/react": "~18.2.45",
-    "typescript": "~5.3.3"
+    "@capacitor/cli": "6.1.2",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-simple-maps": "^3",
+    "@vitejs/plugin-legacy": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^8.35.0",
+    "eslint-plugin-react": "^7.32.2",
+    "terser": "^5.4.0",
+    "typescript": "^5.1.6",
+    "vite": "~5.2.0"
   },
-  "private": true,
+  "description": "An Ionic project",
   "packageManager": "yarn@4.4.0"
 }
