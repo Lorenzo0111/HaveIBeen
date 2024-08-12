@@ -1405,12 +1405,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@capacitor/ios@npm:6.1.2":
+  version: 6.1.2
+  resolution: "@capacitor/ios@npm:6.1.2"
+  peerDependencies:
+    "@capacitor/core": ^6.1.0
+  checksum: 10c0/d07530608ec7be4eada11339f778e161a92fa7a3c8de36edcd6895e54ccd33c0d40b416e0ca3e26307957fa9c5b5bc57a034dabaa513615853972e459d42af44
+  languageName: node
+  linkType: hard
+
 "@capacitor/keyboard@npm:6.0.2":
   version: 6.0.2
   resolution: "@capacitor/keyboard@npm:6.0.2"
   peerDependencies:
     "@capacitor/core": ^6.0.0
   checksum: 10c0/f8c10ad7a9c8095e995206fa534f3ade19c179a271f61dcf482a45f3ecac82edf3029481bf191cc4fc53a74db6e8959500d5d6ac2193d03c28d4ab5a996f3801
+  languageName: node
+  linkType: hard
+
+"@capacitor/share@npm:^6.0.2":
+  version: 6.0.2
+  resolution: "@capacitor/share@npm:6.0.2"
+  peerDependencies:
+    "@capacitor/core": ^6.0.0
+  checksum: 10c0/e097452cc4d7e6b2b78f083bf3aeae655b90c5386a78e3c5e90d22d7a5a293b594382745912f0c3a868ac63900860bc4e5196f81f81a64eda75fb04a1161fc01
   languageName: node
   linkType: hard
 
@@ -4015,7 +4033,9 @@ __metadata:
     "@capacitor/cli": "npm:6.1.2"
     "@capacitor/core": "npm:6.1.2"
     "@capacitor/haptics": "npm:6.0.1"
+    "@capacitor/ios": "npm:6.1.2"
     "@capacitor/keyboard": "npm:6.0.2"
+    "@capacitor/share": "npm:^6.0.2"
     "@capacitor/status-bar": "npm:6.0.1"
     "@ionic/react": "npm:^8.0.0"
     "@ionic/react-router": "npm:^8.0.0"
@@ -4031,6 +4051,7 @@ __metadata:
     eslint: "npm:^8.35.0"
     eslint-plugin-react: "npm:^7.32.2"
     ionicons: "npm:^7.0.0"
+    iso-3166-1: "npm:^2.1.1"
     postcss: "npm:^8.4.41"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
@@ -4490,6 +4511,13 @@ __metadata:
   version: 3.1.1
   resolution: "isexe@npm:3.1.1"
   checksum: 10c0/9ec257654093443eb0a528a9c8cbba9c0ca7616ccb40abd6dde7202734d96bb86e4ac0d764f0f8cd965856aacbff2f4ce23e730dc19dfb41e3b0d865ca6fdcc7
+  languageName: node
+  linkType: hard
+
+"iso-3166-1@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "iso-3166-1@npm:2.1.1"
+  checksum: 10c0/65daf0283d22b2848d733a50ba6116a01df3e4d77970bb31d0df0696b4b386bdad0946dea53c9bb1e748e5e5e74608c07b6f4fe044908a5cffbf46f315385400
   languageName: node
   linkType: hard
 
